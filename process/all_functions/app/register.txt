@@ -1,0 +1,10 @@
+def register(request):
+    return render(request, 'register.html')
+
+
+def token_send(request):
+    return render(request, 'token_send.html')
+
+
+def verify(request, auth_token):
+    return render(request, 'verify.html')

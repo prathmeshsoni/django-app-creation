@@ -1,0 +1,2 @@
+def client_ip(request):
+    return render(request, 'client_ip.html')

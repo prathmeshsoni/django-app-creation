@@ -1,0 +1,23 @@
+from django.shortcuts import render, redirect
+
+
+def not_found(request, exception):
+    return render(request, '404.html')
+
+
+replace_home
+
+
+replace_login
+
+
+replace_logout
+
+
+replace_register
+
+
+replace_profile
+
+
+replace_client_ip
